@@ -1,28 +1,20 @@
-# Node modules
+# Ignore application properties with secrets
 
-node_modules/
+src/main/resources/application.properties
 
-# Environment variables (hide API keys)
+# Optional: ignore other environment configs
 
-.env
-.env.local
-.env.development
-.env.production
+application.properties
+application-dev.properties
+application-prod.properties
 
 # Logs
 
-logs
 *.log
-npm-debug.log*
 
-# OS files
+# Build files
 
-.DS_Store
-Thumbs.db
-
-# Build folders
-
-dist/
+target/
 build/
 
 # IDE files
@@ -30,7 +22,7 @@ build/
 .vscode/
 .idea/
 
-# Temporary files
+# OS files
 
-*.tmp
-*.temp
+.DS_Store
+Thumbs.db
