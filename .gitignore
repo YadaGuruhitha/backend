@@ -1,0 +1,36 @@
+# Node modules
+
+node_modules/
+
+# Environment variables (hide API keys)
+
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Build folders
+
+dist/
+build/
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.temp
