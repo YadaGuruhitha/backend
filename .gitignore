@@ -1,31 +1,52 @@
-# Ignore application properties with secrets
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
 
+# =========================
+# Application secrets
+# =========================
 src/main/resources/application.properties
-
-# Other environment configs
-
-application.properties
 application-dev.properties
 application-prod.properties
 
-# Logs
-
-*.log
-
-# Maven build folder
-
+# =========================
+# Maven build files
+# =========================
 target/
-
-# Build folders
-
 build/
 
-# IDE files
+# =========================
+# Logs
+# =========================
+*.log
 
+# =========================
+# IDE files
+# =========================
 .vscode/
 .idea/
+*.iml
 
+# =========================
 # OS files
-
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Generated files
+# =========================
+*.class
+
+# =========================
+# Jar files
+# =========================
+*.jar
+*.war
+
+# =========================
+# Test output
+# =========================
+surefire-reports/
